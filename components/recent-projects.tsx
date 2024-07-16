@@ -77,7 +77,7 @@ export const RecentProjects = () => {
                       rel="noreferrer noopener"
                       className="flex text-sm text-purple md:text-xs lg:text-xl"
                     >
-                      Source Code
+                      
                     </Link>
 
                     <FaLocationArrow className="ms-3" color="#cbacf9" />

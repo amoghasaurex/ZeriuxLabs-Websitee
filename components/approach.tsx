@@ -10,14 +10,14 @@ export const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Our <span className="text-purple">Approach</span>
       </h1>
 
       <div className="my-20 flex flex-col items-center justify-center gap-4 lg:flex-row">
         <Card
-          title="Planning & Strategy"
+          title="Research and Ideation"
           icon={<MagicButton title="Phase 1" asChild />}
-          description="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+          description="Our journey begins with a thorough understanding of the problem at hand. We conduct in-depth research to uncover the core issues and pain points. This is followed by collaborative brainstorming sessions where our team generates innovative ideas. Each idea undergoes a feasibility analysis to ensure practicality and potential impact, laying a solid foundation for the development phase."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Deployment & Progress Update"
+          title="Development and Implementation"
           icon={<MagicButton title="Phase 2" asChild />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          description="Once a viable solution is identified, we move on to prototype development. Initial prototypes are created to test and refine our ideas through iterative testing. This rigorous process helps identify and resolve any issues early on. The final solution is then implemented with a focus on scalability and user-friendliness, ensuring it meets the highest standards of quality and effectiveness."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,9 +42,9 @@ export const Approach = () => {
         </Card>
 
         <Card
-          title="Development & Launch"
+          title="Evaluation and Enhancement"
           icon={<MagicButton title="Phase 3" asChild />}
-          description="This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+          description="Our commitment to excellence doesn’t end with deployment. We continuously monitor the performance and impact of our solutions, gathering feedback from users and stakeholders to pinpoint areas for improvement. This feedback is crucial for our continuous improvement process, enabling us to regularly update and enhance our solutions to adapt to evolving needs and technologies."
         >
           <CanvasRevealEffect
             animationSpeed={3}

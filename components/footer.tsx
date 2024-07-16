@@ -21,13 +21,11 @@ export const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+        Reach out and lets turn <span className="text-purple">ideas</span> into reality <span className="text-purple">together</span>
         </h1>
 
         <p className="my-5 text-center text-white-200 md:mt-10">
-          Reach out to me today and let&apos;s discuss how I can help your
-          achieve your goals.
+
         </p>
 
         <Link
@@ -37,7 +35,7 @@ export const Footer = () => {
           className="md:mt-10"
         >
           <MagicButton
-            title="Let's get in touch"
+            title="Get in touch"
             icon={<FaLocationArrow />}
             position="right"
             asChild
@@ -49,16 +47,16 @@ export const Footer = () => {
         <p className="text-sm font-light md:text-base md:font-normal">
           Copyright &copy; {new Date().getFullYear()}{" "}
           <Link
-            href="https://sanidhy.me"
+            href="https://zeriuxlabs.com"
             target="_blank"
             rel="noreferrer noopener"
             className="text-purple"
           >
-            Sanidhya
+            Zeriux Labs
           </Link>{" "}
-          |{" "}
+          {" "}
           <Link href={links.sourceCode} className="underline">
-            Source Code
+            
           </Link>
         </p>
 
