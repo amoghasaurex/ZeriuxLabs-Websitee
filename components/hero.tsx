@@ -1,7 +1,4 @@
-import Link from "next/link";
-import { FaLocationArrow } from "react-icons/fa6";
 
-import { MagicButton } from "@/components/ui/magic-button";
 import { Spotlight } from "@/components/ui/spotlight";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
@@ -39,14 +36,6 @@ export const Hero = () => {
             A Non-Profit Organization Based in UAE
           </p>
 
-          <Link href="#about" className="md:mt-10">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-              asChild
-            />
-          </Link>
         </div>
       </div>
     </div>
