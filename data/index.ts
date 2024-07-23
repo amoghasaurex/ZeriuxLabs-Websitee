@@ -165,9 +165,14 @@ export const companies = [
   },
 ] as const;
 
-export const workExperience = [
+export const workExperience:{
+  id: string
+  title: string
+  thumbnail: string
+  desc: string
+}[]= [ 
   
-] as const;
+]
 
 export const socialMedia = [
   {
