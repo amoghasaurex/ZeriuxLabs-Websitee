@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const links = {
   sourceCode: "",
   ownerName: "Zeriux Labs",
-  ownerEmail: "zeriuxlabs@gmail.com",
+  ownerEmail: "contact@zeriuslab.com",
 } as const;
 
 export const siteConfig: Metadata = {
