@@ -29,7 +29,7 @@ export const Hero = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Innovating for a better tomorrow with AI solutions that enhance human well-being."
+            words="hakuna matata"
           />
 
           <p className="mb-4 text-center text-sm md:text-lg md:tracking-wider lg:text-2xl">
