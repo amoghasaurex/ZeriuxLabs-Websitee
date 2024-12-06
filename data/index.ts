@@ -2,7 +2,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Our Team", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ] as const;
 
@@ -74,10 +74,10 @@ export const projects = [
   {
     id: 1,
     title: "ProAct+",
-    des: "An app designed to combat procrastination by leveraging intelligent reminders and task management.",
-    img: "/upcoming.svg",
+    des: "A revolutionary anti-procrastination app designed to help users manage their time effectively and boost productivity.",
+    img: "/picsvg_download.svg",
     iconLists: ["/flutterio-icon.svg","/Google_Gemini_logo.svg"],
-    link: "",
+    link: "https://play.google.com/store/apps/details?id=com.zeriuxlabs.proact&pli=1",
     sourceCode: "",
   },
   {
@@ -100,8 +100,8 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Computer Lab for Underpriviliged Students",
-    des: "A dedicated space equipped with technology to empower underprivileged children with essential digital skills.",
+    title: "HoloBand",
+    des: "A wearable device that creates 3D holograms with an offline AI voice assistant for seamless hands-free interaction.",
     img: "/upcoming.svg",
     iconLists: [],
     link: "",
@@ -111,24 +111,19 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: `"Zeriux Labs has completely revolutionized how I approach my daily tasks. ProAct+ is a game-changer for productivity!"`,
-    name: "Sarah Thompson",
-    title: "Software Engineer",
+    quote: `An Innovative tech enthusiast and the driving force behind groundbreaking projects, blending expertise in AI, robotics, and software development to create impactful solutions.`,
+    name: "Adityan Srinivasan",
+    title: "Founder & CEO",
   },
   {
-    quote: `"The AI model developed by Zeriux Labs has been a lifesaver. It's like having a supportive friend who's always there to listen."`,
-    name: "James Bennet",
-    title: "Student in Abu Dhabi",
+    quote: `A dedicated leader known for his analytical skills and problem-solving abilities, contributing to the success of our projects with precision and creativity.`,
+    name: "Pratham Shah",
+    title: "Founder & COO",
   },
   {
-    quote: `"The live captioning glasses have made a huge difference in my life. They are a fantastic tool for the deaf community"`,
-    name: "Emily Rodriguez",
-    title: "UAE Deaf Association",
-  },
-  {
-    quote: `"Zeriux Labs' commitment to social good is inspiring. The computer lab they built for underprivileged kids is making a real impact."`,
-    name: "Vijay Sharma",
-    title: "Student in Karnataka",
+    quote: `A skilled engineer and creative thinker, Amogh contributes to developing innovative, user-focused solutions with a strong blend of technical expertise and design insight.`,
+    name: "Amogh Varote",
+    title: "Founder & CTO",
   },
 ] as const;
 
