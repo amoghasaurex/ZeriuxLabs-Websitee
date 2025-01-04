@@ -116,14 +116,9 @@ export const testimonials = [
     title: "Founder & CEO",
   },
   {
-    quote: `A dedicated leader known for his analytical skills and problem-solving abilities, contributing to the success of our projects with precision and creativity.`,
-    name: "Pratham Shah",
-    title: "Founder & COO",
-  },
-  {
     quote: `A skilled engineer and creative thinker, Amogh contributes to developing innovative, user-focused solutions with a strong blend of technical expertise and design insight.`,
     name: "Amogh Varote",
-    title: "Founder & CTO",
+    title: "Founder & COO",
   },
 ] as const;
 
