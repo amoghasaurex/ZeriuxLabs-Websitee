@@ -1,7 +1,7 @@
 
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "Solutions", link: "#projects" },
   { name: "Our Team", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ] as const;
@@ -9,7 +9,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Empowering communities through advanced technology and compassionate design.",
+    title: "Breaking the cycle of procrastination through innovative productivity solutions.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Pioneering the future of technology for the benefit of all.",
+    title: "Empowering individuals to overcome procrastination and achieve their goals.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Bridging gaps and fostering connections with intelligent technology.",
+    title: "Building tools that transform procrastination into productive action.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Dedicated to enhancing lives through smart and empathetic tech.",
+    title: "A non-profit dedicated to making productivity accessible to everyone.",
     description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -60,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Contact Us",
+    title: "Join Our Mission",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -106,12 +106,12 @@ export const projects = [
 
 export const testimonials = [
   {
-    quote: `An Innovative tech enthusiast and the driving force behind groundbreaking projects, blending expertise in AI, robotics, and software development to create impactful solutions.`,
+    quote: `Passionate about helping people overcome procrastination through technology. Leading our mission to create accessible productivity tools that transform how individuals approach their goals and daily tasks.`,
     name: "Adityan Srinivasan",
     title: "Founder & CEO",
   },
   {
-    quote: `A skilled engineer and creative thinker, Amogh contributes to developing innovative, user-focused solutions with a strong blend of technical expertise and design insight.`,
+    quote: `Dedicated to designing user-centered solutions that make productivity intuitive and engaging. Focused on creating tools that turn procrastination into purposeful action for everyone.`,
     name: "Amogh Varote",
     title: "Founder & COO",
   },

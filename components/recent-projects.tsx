@@ -10,8 +10,8 @@ export const RecentProjects = () => {
   return (
     <section id="projects" className="py-20">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        Our{" "}
+        <span className="text-purple">Productivity Solutions</span>
       </h1>
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-x-24 gap-y-8 p-4">
